@@ -1,0 +1,18 @@
+# Dependencies.
+node_modules
+npm*
+yarn*
+
+# Testing.
+coverage
+
+# Production.
+dist
+
+# Misc.
+.husky
+.editorconfig
+*ignore
+Dockerfile
+entrypoint.sh
+sonar-project.properties

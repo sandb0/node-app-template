@@ -1,0 +1,4 @@
+{
+  "**/*": ["yarn lint:prettier"],
+  "**/*.{js,jsx,ts,tsx}": ["yarn lint:eslint", "yarn test --bail"]
+}

@@ -15,7 +15,7 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "start:local": "ts-node-dev -r tsconfig-paths/register src/main.ts",
+    "dev": "ts-node-dev -r tsconfig-paths/register src/main.ts",
     "build": "tsc --build tsconfig.json && yarn tsc-alias",
     "test": "jest --colors --passWithNoTests",
     "lint:tsc": "tsc -p tsconfig.json --noEmit",
